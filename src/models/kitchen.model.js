@@ -28,6 +28,7 @@ class KitchenModel {
       );
       return rows;
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
